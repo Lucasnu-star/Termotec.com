@@ -1,0 +1,855 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+html
+{
+    scroll-behavior: smooth;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.logo
+{
+    display: flex;
+    justify-content: center;
+}
+.logo img
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+nav
+{
+    background-color: #ed6221;
+
+}
+nav ul
+{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+nav ul li
+{
+    margin: 1.5rem;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+}
+nav ul li a:hover
+{
+    color:black ;
+    border-bottom: 5px solid black;
+    transition: all ease 0.3s;
+}
+.casa
+{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    margin: auto !important;
+    margin-top: 0%;
+    
+}
+.casa img
+{
+    width: 100%;
+    
+}
+.casa a {
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+}
+.panelfoto1
+{
+    
+    width: 10%;
+    height: 14%;
+    left: 19%;
+    top: 20%;
+}
+.panelsol2
+{
+    
+    width: 9%;
+    height: 14%;
+    left: 41%;
+    top: 15%;
+
+}
+.radiado1
+{
+    
+    width: 6%;
+    height: 14%;
+    left:23%;
+    top: 41%;
+    
+}
+.radiado2
+{
+    
+    width: 6%;
+    height: 14%;
+    left: 43%;
+    top: 41%;
+    
+}
+.toalleros
+{
+    width: 8%;
+    height: 14%;
+    left: 30%;
+    top: 41%;
+}
+.caldera
+{
+    
+    width: 7%;
+    height: 26%;
+    left: 55%;
+    top: 40%;
+}
+.pisoradpart1
+{
+    
+    width: 36%;
+    height: 6%;
+    left: 19%;
+    top: 75%;
+    
+}
+.pisoradpart2
+{
+
+    width: 4%;
+    height: 10%;
+    left: 20%;
+    top: 80%;
+}
+.calePiscina
+{
+    width: 5%;
+    height: 16%;
+    left: 63%;
+    top: 61%;
+    
+}
+.bombCalorPiscina
+{
+    width: 5%;
+    height: 16%;
+    left: 81%;
+    top: 61%;
+}
+.grupelec
+{
+    width: 5%;
+    height: 16%;
+    left: 13%;
+    top: 61%;
+}
+.p1
+{
+    top: 4%;
+}
+.p2
+{
+    top: 10%;
+}
+.p3
+{
+    top: 16%;
+}
+.p4
+{
+    top: 22%;
+}
+.p5
+{
+    top: 28%;
+}
+.p6
+{
+    top: 34%;
+}
+.p7
+{
+    top: 40%;
+}
+.p8
+{
+    top: 46%;
+}
+.p9
+{
+    top: 52%;
+}
+.genserv
+{
+    width: 30%;
+    height: 5%;
+    left: 70%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-size: 0.6vw;
+}
+.genserv:hover
+{
+    background-color: #f9520B;
+    transition: all ease 1s;
+}
+.num
+{
+    width: 5%;
+    margin-left: 5px;
+}
+.text-serv
+{
+    width: 95%;
+}
+.nosotrosSection
+{
+    margin-top: 100px;
+    width: 100%;
+    position: relative;
+}
+.nosotrosSection img
+{
+    width: 100%;
+    
+}
+.sec-sob1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 3%;
+    width: 24%;
+    height: 90%;
+    background-color: #505050cd;
+}
+.sec-sob1 h1
+{
+    width: 100%;
+    text-align:center;
+    font-size: large;
+    padding: 40px 0 25px 0;
+    font-size: 3.1vw;
+    color: #ed6221;
+    font-weight: bold;
+}
+.sec-sob1 .part1
+{
+    font-size: 1.2vw;
+    text-align:left;
+    width: 80%;
+    color: white;
+    margin-top: 15px;
+}
+.sec-sob1 .part2
+{
+    font-size: 1.2vw;
+    text-align:left;
+    width: 80%;
+    color: white;
+}
+.sec-sob2
+{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        top: 30%;
+        left: 75%;
+        width: 20%;
+        background-color: #ed6221;
+        padding: 20px 10px 20px 10px;
+    
+}
+.sec-sob2 h2
+{
+    width: 70%;
+    text-align: left;
+    font-size: 1.2vw;
+    color: white;
+}
+.sec-sob2 p
+{
+    color: black;
+    font-size: 1vw;
+    margin-top: 10px;
+    text-align: left;
+    
+}
+.infonos
+{
+    display: flex;
+}
+.infopart1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.infopart1 h2
+{
+    margin-left: 30px;
+    margin-top: 60px;
+    font-size: 1.5vw;
+    margin-bottom: 30px;
+    width: 100%;
+    color: #ed6221;
+}
+.second-margin-text
+{
+    margin-top: 60px;
+}
+.infopart1 p
+{
+    margin-left: 30px;
+    width: 80%;
+    font-size: 1.1vw;
+}
+.infopart2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+.infopart2 h2
+{
+    margin-left: 30px;
+    margin-top: 60px;
+    font-size: 1.5vw;
+    margin-bottom: 30px;
+    color: #ed6221;
+}
+.infopart2 p
+{
+    margin-left: 30px;
+    width: 80%;
+    font-size: 1.1vw;
+}
+.content-img
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.content-img img
+{
+    width: 80%;
+    height: 35vh;
+    margin-top: 25px;
+}
+
+.title-gal
+{
+    margin-top: 200px;
+    text-align: left;
+    font-size: 1.5vw;
+    width: 100%;
+    
+
+}
+.title-gal h2
+{
+    padding: 40px 0px 40px 150px;
+    color: white;
+    border-bottom: 5px solid white;
+    background-color:  #717171;
+}
+.ro
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 0 0 150px 0;
+}
+.col
+{
+    width: 20%;
+}
+.col img
+{
+    width: 100% ;
+    height: 420px;
+}
+.col a:hover img
+{
+    filter: blur(5px);
+}
+.light-box
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.5);
+    transition: transform .3s ease-in-out;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+}
+.light-box img
+{
+    width: 75vw;
+    max-height: 75vh;
+}
+.light-box:target{
+    transform: scale(1);
+}
+.close
+{
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 100px;
+    font-size: 1.3vw;
+    padding: 10px 15px 10px 15px ;
+    background-color: #c3c3c3;
+    color: black;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.next
+{
+    display: block;
+    background-color: #c3c3c3;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2vw;
+    border-radius: 50%;
+}
+.services-padre{
+    font-size: 1.5vw;
+    width: 100%;
+}
+
+.services-padre h2
+{
+    padding: 40px 0px 40px 150px;
+    color: white;
+    background-color:  #717171;
+}
+.sectionimgtextservice
+{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    
+}
+.sectionimgtextservice img
+{
+    width: 250px;
+    height: 200px;
+    border-right: 4px solid #ed6221;
+    padding: 0 140px 0 0;
+}
+.sectionimgtextservice p
+{
+    width:70%;
+    font-size: 1.1vw;
+    text-align: left;
+    margin-left: 3em;
+}
+.hijo-service 
+{
+    font-size: 1.2vw;
+}
+.hijo-service h3
+{
+    margin-left: 2em;
+    margin-bottom: 1.5em;
+    margin-top: 6em;
+    margin-bottom: 1em;
+
+}
+.form-padre
+{
+    background-image: url(/img/panelesfotovocontact.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 60px 0 700px 0;
+    margin-bottom: 250px;
+    margin-top: 350px;
+    position: relative;
+}
+.form
+{
+    position:absolute;
+    background-color: rgba(255, 255, 255, 0.531);
+    left: 30%;
+    top:10%;
+    width: 40%;
+    height: 80%;
+
+}
+legend
+{
+width: 100%;
+text-align: center;
+font-size: 1.4vw;
+padding: 70px 0 0 0;
+}
+fieldset
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 30em;
+    border: none;
+
+}
+.formsec1
+{   
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formsec2
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.col-12
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+    
+}
+.col-8
+{
+    width: 80%;
+    margin-top: 2em;
+    padding: 2em;
+    border: none;
+}
+textarea
+{
+    resize: none;
+}
+.col-121
+{
+    text-align:center;
+}
+.btn-send
+{
+
+    padding: 17px 100px 17px 100px;
+    border: none;
+    background-color: #f9520B;
+    color: white;
+    font-size: .9vw;
+}
+.hijo-info
+{
+    width: 100%;
+    background-color: #717171;
+    padding: 80px 0 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+.phone
+{
+    display: flex;
+    align-items: center;
+
+}
+.phone p
+{
+    font-size: .8vw;
+}
+
+.mail
+{
+    display: flex;
+    align-items: center;
+
+}
+.mail p
+{
+    font-size: .8vw;
+}
+.ig
+{
+    display: flex;
+    align-items: center;
+
+}
+.ig p
+{
+    font-size: .8vw;
+}
+.ig a
+{
+    text-decoration: none;
+    color: white;
+}
+.up
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #717171;
+    text-align: center;
+    padding: 0 0 10px 0;
+}
+.up a
+{
+    text-decoration: none;
+    color: white;
+    
+}
+.fa-solid
+{
+    font-size: 1.5vw;
+}
+.fa-phone
+{
+    padding: 0 30px 0 0;
+}
+.fa-envelope
+{
+    padding: 0 30px 0 0;
+}
+.fa-instagram
+{
+    padding: 0 30px 0 0;
+}
+.fa-brands
+{
+    font-size: 1.5vw;
+}
+
+@media screen and (max-width:1200px) {
+    .hijo-service h3
+    {
+        font-size: 2vw;
+    }
+    .col img
+    {
+        height: 320px;
+    }
+    .sectionimgtextservice p
+    {
+        width:70%;
+        font-size: 1.5vw;
+        text-align: left;
+        margin-left: 3em;
+    }
+    .sectionimgtextservice img
+    {
+        width: 200px;
+        height: 200px;
+        border-right: 4px solid #ed6221;
+        padding: 0 140px 0 0;
+    }
+    .form
+    {
+        left: 20%;
+        width: 60%;
+    }
+    legend
+    {
+        font-size: 2vw;
+    }
+    .phone p
+    {
+        font-size: 1.4vw;
+    }
+    .mail p
+    {
+        font-size: 1.4vw;
+    }
+    .ig p
+    {
+        font-size: 1.4vw;
+    }
+    
+
+    
+}
+@media screen and (max-width:768px)
+{
+    .hijo-service h3
+    {
+        font-size: 2.5vw;
+    }
+    .col img
+    {
+        height: 200px;
+    }
+    .p1
+    {
+        top: 0%;
+    }
+    .p2
+    {
+        top: 7%;
+    }
+    .p3
+    {
+        top: 14%;
+    }
+    .p4
+    {
+        top: 21%;
+    }
+    .p5
+    {
+        top: 28%;
+    }
+    .p6
+    {
+        top: 35%;
+    }
+    .p7
+    {
+        top: 42%;
+    }
+    .p8
+    {
+        top: 49%;
+    }
+    .p9
+    {
+        top: 56%;
+    }
+    .genserv
+    {
+        font-size: 0.8vw;
+    }
+    .sec-sob1 h1
+    {
+        padding: 5px 0 5px 0;
+        font-size: 3.9vw;
+    }
+    .sec-sob1 .part1
+    {
+        font-size: 1.3vw;
+        text-align:left;
+        margin-top: 0px;
+    }
+    .sec-sob1 .part2
+    {
+        font-size: 1.3vw;
+        text-align:left;
+        width: 80%;
+        color: white;
+    }
+    .sec-sob2 h2
+    {
+        font-size: 1.6vw;
+    }
+    .sec-sob2 p
+    {
+        font-size: 1.3vw;
+        margin-top: 4px;
+    }
+    
+
+    .infopart1 h2
+    {
+        margin-top: 20px;
+        font-size: 1.7vw;
+    }
+    .second-margin-text
+    {
+        margin-top: 30px;
+    }
+    .infopart1 p
+    {
+        font-size: 1.5vw;
+    }
+    .infopart2
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 50%;
+    }
+    .infopart2 h2
+    {
+        margin-top: 30px;
+        font-size: 1.7vw;
+    }
+    .infopart2 p
+    {
+        font-size: 1.5vw;
+    }
+    .content-img img
+    {
+        width: 90%;
+        height: 35vh;
+        margin-top: 25px;
+    }
+    .title-gal h2
+    {
+        padding: 40px 0px 40px 50px;
+        font-size: 2.5vw;
+    }
+    .services-padre h2
+    {
+        padding: 40px 0px 40px 50px;
+        font-size: 2.5vw;
+    }
+    .logo img
+    {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 40%;
+    }
+    .sectionimgtextservice img
+    {
+        padding: 0 50px 0 0;
+    }
+    .sectionimgtextservice p
+    {
+        font-size: 1.9vw;
+        margin-left: 1em;
+    }
+    .form
+    {
+        left: 5%;
+        width: 90%;
+    }
+    legend
+    {
+        font-size: 2vw;
+    }
+}
+
+
+
+
+
+
