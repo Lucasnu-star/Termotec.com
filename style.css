@@ -7,9 +7,7 @@ html
 {
     margin: 0;
     padding: 0;
-    
 }
-
 p
 {
     font-family: 'Montserrat', sans-serif;
@@ -35,7 +33,6 @@ nav
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     background-color: #ed6221;
-
 }
 nav ul
 {
@@ -67,7 +64,6 @@ nav ul li a:hover
     z-index: 1;
     margin: auto !important;
     margin-top: 0%;
-    
 }
 .casa img
 {
@@ -81,7 +77,6 @@ nav ul li a:hover
 }
 .panelfoto1
 {
-    
     width: 10%;
     height: 14%;
     left: 19%;
@@ -89,7 +84,6 @@ nav ul li a:hover
 }
 .panelsol2
 {
-    
     width: 9%;
     height: 14%;
     left: 41%;
@@ -98,21 +92,17 @@ nav ul li a:hover
 }
 .radiado1
 {
-    
     width: 6%;
     height: 14%;
     left:23%;
     top: 41%;
-    
 }
 .radiado2
 {
-    
     width: 6%;
     height: 14%;
     left: 43%;
     top: 41%;
-    
 }
 .toalleros
 {
@@ -123,7 +113,6 @@ nav ul li a:hover
 }
 .caldera
 {
-    
     width: 7%;
     height: 26%;
     left: 55%;
@@ -131,16 +120,13 @@ nav ul li a:hover
 }
 .pisoradpart1
 {
-    
     width: 36%;
     height: 6%;
     left: 19%;
     top: 75%;
-    
 }
 .pisoradpart2
 {
-
     width: 4%;
     height: 10%;
     left: 20%;
@@ -239,7 +225,6 @@ nav ul li a:hover
 .nosotrosSection img
 {
     width: 100%;
-    
 }
 .sec-sob1
 {
@@ -280,17 +265,15 @@ nav ul li a:hover
 }
 .sec-sob2
 {
-    
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        position: absolute;
-        top: 30%;
-        left: 75%;
-        width: 20%;
-        background-color: #ed6221;
-        padding: 20px 10px 20px 10px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 30%;
+    left: 75%;
+    width: 20%;
+    background-color: #ed6221;
+padding: 20px 10px 20px 10px;
 }
 .sec-sob2 h2
 {
@@ -305,7 +288,6 @@ nav ul li a:hover
     font-size: 1vw;
     margin-top: 10px;
     text-align: left;
-    
 }
 .infonos
 {
@@ -370,15 +352,12 @@ nav ul li a:hover
     height: 35vh;
     margin-top: 25px;
 }
-
 .title-gal
 {
     margin-top: 200px;
     text-align: left;
     font-size: 1.5vw;
     width: 100%;
-    
-
 }
 .title-gal h2
 {
@@ -458,7 +437,6 @@ nav ul li a:hover
     font-size: 1.5vw;
     width: 100%;
 }
-
 .services-padre h2
 {
     padding: 40px 0px 40px 150px;
@@ -470,7 +448,6 @@ nav ul li a:hover
     display: flex;
     align-items: center;
     margin-left: 50px;
-    
 }
 .sectionimgtextservice img
 {
@@ -496,7 +473,6 @@ nav ul li a:hover
     margin-bottom: 1.5em;
     margin-top: 6em;
     margin-bottom: 1em;
-
 }
 .form-padre
 {
@@ -509,17 +485,16 @@ nav ul li a:hover
     position: relative;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    display: flex;
+    justify-content: center;
 }
 .form
 {
     position:absolute;
     background-color: rgba(255, 255, 255, 0.531);
-    left: 30%;
-    top:10%;
-    width: 40%;
+    width: 80%;
+    top: 10%;
     height: 80%;
-    
-
 }
 legend
 {
@@ -536,7 +511,6 @@ fieldset
     width: 100%;
     height: 30em;
     border: none;
-
 }
 .formsec1
 {   
@@ -556,9 +530,7 @@ fieldset
 {
     display: flex;
     justify-content: center;
-    width: 100%;
-    
-    
+    width: 100%;  
 }
 .col-8
 {
@@ -577,7 +549,6 @@ textarea
 }
 .btn-send
 {
-
     padding: 17px 100px 17px 100px;
     border: none;
     background-color: #f9520B;
@@ -600,13 +571,11 @@ textarea
     align-items: center;
     width: 30%;
     padding: 15px 0 15px 0;
-
 }
 .phone p
 {
     font-size: .8vw;
 }
-
 .mail
 {
     width: 30%;
@@ -685,6 +654,276 @@ textarea
     background-color: white;
     color:#0df053 ;
 }
+.fa-whatsapp
+{
+    font-size: 2.4vw;
+}
+
+@media screen and (max-width:1250px) and (orientation:landscape) {
+    .num
+    {
+        font-size: 1vw;
+    }
+    .text-serv
+    {
+        font-size: 1vw;
+    }
+    .sec-sob1 .part1
+    {
+        font-size: 1.3vw;
+    }
+    .sec-sob1 .part2
+    {
+        font-size: 1.3vw;
+    }
+    .sec-sob2 h2
+    {
+        font-size: 1.5vw;
+    }
+    .sec-sob2 p
+    {
+        font-size: 1.3vw;
+    }
+    .infopart1 h2
+    {
+        font-size: 2vw;
+    }
+    .infopart1 p
+    {
+        width: 80%;
+        font-size: 1.5vw;
+    }
+    .infopart2 h2
+    {
+        font-size: 2vw;
+    }
+    .infopart2 p
+    {
+        font-size: 1.5vw;
+    }
+
+    .col img
+    {
+        height: 300px;
+    }
+    .hijo-service h3
+    {
+        font-size: 2vw;
+    }
+    .sectionimgtextservice p
+    {
+        width:70%;
+        text-align: left;
+        margin-left: 1.2em;
+        font-size: 1.7vw;
+    }
+
+    
+}
+@media screen and (max-width:1114px)
+{
+    legend
+    {
+    font-size: 2vw;
+    }
+    .btn-send
+    {
+        font-size: 2vw;
+    }
+}
 
 
+@media screen and (max-width:842px) and (orientation:portrait)
+{
+    .num
+    {
+        font-size: 1vw;
+    }
+    .text-serv
+    {
+        font-size: 1vw;
+    }
+    .sec-sob1 .part1
+    {
+        font-size: 1.3vw;
+    }
+    .sec-sob1 .part2
+    {
+        font-size: 1.3vw;
+    }
+    .sec-sob2 h2
+    {
+        font-size: 1.5vw;
+    }
+    .sec-sob2 p
+    {
+        font-size: 1.3vw;
+    }
+    .infopart1 h2
+    {
+        font-size: 2vw;
+    }
+    .infopart1 p
+    {
+        width: 80%;
+        font-size: 1.5vw;
+    }
+    .infopart2 h2
+    {
+        font-size: 2vw;
+    }
+    .infopart2 p
+    {
+        font-size: 1.5vw;
+    }
 
+    .col img
+    {
+        height: 250px;
+    }
+    .hijo-service h3
+    {
+        font-size: 2vw;
+    }
+    .sectionimgtextservice p
+    {
+        width:70%;
+        text-align: left;
+        margin-left: 1.2em;
+        font-size: 1.9vw;
+    }
+    .sectionimgtextservice img
+    {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width:636px) and (orientation:portrait)
+{
+    .logo img
+    {
+        width: 270px;
+        height: 80px;
+    }
+
+    nav ul li
+    {
+        margin: 0.7rem;
+    }
+    nav ul li a
+    {
+        font-size: 3vw;
+    }
+    .sec-sob1
+    {
+        left: 3%;
+        width: 30%;
+        height: 98%;
+    }
+    .sec-sob1 h1
+    {
+        padding: 10px 0 0px 0;
+        font-size: 4.7vw;
+    }
+    .sec-sob1 .part1
+    {
+        font-size: 1.6vw;
+    }
+    .sec-sob1 .part2
+    {
+        font-size: 1.6vw;
+    }
+    .sec-sob2
+    {
+        padding: 20px 5px 20px 5px;
+    }
+    .sec-sob2 h2
+    {
+        width: 70%;
+        font-size: 2vw;
+    }
+    .sec-sob2 p
+    {
+        color: black;
+        font-size: 1.4vw;
+    }
+    .infopart1 h2
+    {
+        font-size: 5vw;
+    }
+    .infopart1 p
+    {
+        width: 80%;
+        font-size: 2.5vw;
+    }
+    .infopart2 h2
+    {
+        font-size: 5vw;
+    }
+    .infopart2 p
+    {
+        font-size: 2.5vw;
+    }
+    .title-gal
+    {
+        margin-top: 200px;
+        text-align: left;
+        font-size: 5vw;
+        width: 100%;
+    }
+    .title-gal h2
+    {
+        padding: 40px 0px 40px 50px;
+        color: white;
+        border-bottom: 5px solid white;
+        background-color:  #717171;
+    }
+    .col img
+    {
+        height: 120px;
+    }
+
+    .services-padre
+    {
+        margin-top: 200px;
+        text-align: left;
+        font-size: 5vw;
+        width: 100%;
+    }
+    .services-padre h2
+    {
+        padding: 40px 0px 40px 50px;
+        color: white;
+        border-bottom: 5px solid white;
+        background-color:  #717171;
+    }
+    .sectionimgtextservice
+    {
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+    }
+    .sectionimgtextservice p
+    {
+        width:70%;
+        text-align: left;
+        margin-left: 1.2em;
+        font-size: 3vw;
+    }
+    .sectionimgtextservice img
+    {
+        width: 100px;
+        height: 100px;
+        border-right: 2px solid #ed6221;
+        padding: 0 3px 0 0;
+    }
+    .content-img img
+    {
+        width: 95%;
+        height: 35vh;
+        margin-top: 25px;
+}
+
+
+}
