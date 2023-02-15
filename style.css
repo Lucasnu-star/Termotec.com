@@ -217,14 +217,19 @@ nav ul li a:hover
 }
 .nosotrosSection
 {
+
+
     margin-top: 100px;
     width: 100%;
     position: relative;
 }
+
 .nosotrosSection img
 {
     width: 100%;
 }
+
+
 .sec-sob1
 {
     display: flex;
@@ -397,7 +402,7 @@ nav ul li a:hover
     }
     .col
     {
-        width: 30vw;
+        width: 20vw;
         height: 30vh;
 
     }
@@ -478,7 +483,7 @@ nav ul li a:hover
     .sectionimgtextservice img
     {
         width: 250px;
-        height: 200px;
+        height: 250px;
         border-right: 2px solid #ed6221;
         padding: 0 60px 0 0;
     }
@@ -642,7 +647,6 @@ nav ul li a:hover
         color: white;
         font-size: 1vw;
     }
-
     .fa-phone
     {
         padding: 0 30px 0 0;
@@ -658,7 +662,6 @@ nav ul li a:hover
         padding: 0 30px 0 0;
         font-size: 1vw;
     }
-
     .wspp-flotante a
     {
         color: white;
@@ -692,10 +695,17 @@ nav ul li a:hover
         font-size: 2.9vw;
     }
     .title-gal h2
-{
+    {
 
-    font-size: 2.9vw;
-}
+        font-size: 2.9vw;
+    }
+    .sectionimgtextservice img
+    {
+        width: 200px;
+        height: 200px;
+        border-right: 2px solid #ed6221;
+        padding: 0 60px 0 0;
+    }
 } 
 
 
@@ -1063,6 +1073,12 @@ nav ul li a:hover
     .fa-whatsapp
     {
         font-size: 4vw;
+    }
+    .col
+    {
+        width: 20vw;
+        height: 20vh;
+
     }
     
 

@@ -31,7 +31,7 @@ $message .= "Enviado el " . date('d/m/Y', time());
 
 
 
-$for = 'lucasnunezt5@gmail.com';
+$for = 'Info@termotec.ar';
 $subjet = 'Mensaje de asunto';
 
 mail($for, $subjet, utf8_decode($message), $header);
